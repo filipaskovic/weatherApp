@@ -32,6 +32,7 @@ export const UserProvider = ({ children }) => {
   const closeModal = () => {
     dispatch({ type: CLOSE_MODAL });
   };
+
   const toggleTheme = () => {
     dispatch({ type: TOGGLE_THEME });
   };
